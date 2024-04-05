@@ -60,12 +60,8 @@ header,
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0.25rem; /* Padding for the icons bar */
+  padding: 2.5rem; /* Padding for the icons bar */
   border-top: 1px solid #000000; /* Add transparent border */
-}
-
-.social-link {
-  padding: 2.3rem;
 }
 
 a {

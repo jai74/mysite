@@ -21,9 +21,19 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   background: #ffffff;
+}
+
+header,
+#my-mail {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#my-mail {
+  margin-top: 2rem; /* Adjust as needed */
+  margin-bottom: 5rem; /* Adjust as needed */
 }
 
 #my-name {
@@ -35,8 +45,7 @@ body {
 #my-mail {
   font-family: 'Inter-Regular', sans-serif;
   color: #000000;
-  font-size: 1.1rem; /* Adjust as needed */
-  margin-top: 2rem; /* Adjust as needed */
+  font-size: 1.1rem;
 }
 
 .social-links {
@@ -51,11 +60,15 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 2.5rem; /* Padding for the icons bar */
+  padding: 0.25rem; /* Padding for the icons bar */
   border-top: 1px solid #000000; /* Add transparent border */
 }
 
+.social-link {
+  padding: 2.3rem;
+}
+
 a {
-  color: inherit; /* Use the same color as the surrounding text */
+  color: #000000; /* Use the same color as the surrounding text */
   text-decoration: none; /* Remove underline */
 }

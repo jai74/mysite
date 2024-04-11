@@ -16,6 +16,12 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('InterDisplay-Regular.woff2') format('woff2-variations');
+  font-weight: 400;
+}
+
 body {
   text-align: center;
   min-height: 100vh;
@@ -67,4 +73,8 @@ header,
 a {
   color: #ffb982; /* Use the same color as the surrounding text */
   text-decoration: none; /* Remove underline */
+}
+
+.arrow {
+  font-family: 'Inter', sans-serif;
 }

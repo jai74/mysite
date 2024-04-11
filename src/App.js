@@ -33,9 +33,9 @@ function App() {
         </main>
         <footer>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/jai-bhaarath" target="_blank" rel="noopener noreferrer">LinkedIn &#x2197;</a>
-            <a href="https://www.instagram.com/jaibhaarath" target="_blank" rel="noopener noreferrer">Instagram &#x2197;</a>
-            <a href="https://www.twitter.com/jaibz" target="_blank" rel="noopener noreferrer">Twitter &#x2197;</a>
+            <a href="https://www.linkedin.com/in/jai-bhaarath" target="_blank" rel="noopener noreferrer">LinkedIn <span class="arrow">&#x2197;</span></a>
+            <a href="https://www.instagram.com/jaibhaarath" target="_blank" rel="noopener noreferrer">Instagram <span class="arrow">&#x2197;</span></a>
+            <a href="https://www.twitter.com/jaibz" target="_blank" rel="noopener noreferrer">Twitter <span class="arrow">&#x2197;</span></a>
           </div>
         </footer>
       </body>

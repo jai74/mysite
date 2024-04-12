@@ -4,10 +4,10 @@
   box-sizing: border-box; 
 }
 
-.crimson-text-regular {
-  font-family: "Crimson Text", serif;
+@font-face {
+  font-family: 'EBGaramond';
+  src: url('EBGaramond-Regular.ttf') format('woff2-variations');
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
@@ -36,7 +36,7 @@ body {
 }
 
 #my-name {
-  font-family: 'Crimson Text', serif;
+  font-family: 'EBGaramond', serif;
   color: #fff2e8;
   font-size: 40px;
 }

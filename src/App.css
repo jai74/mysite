@@ -1,7 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
 @font-face {
@@ -24,57 +24,63 @@
 
 body {
   text-align: center;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: #184929;
+  min-height: 100vh;
 }
 
-header,
-#my-mail {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-#my-mail {
-  margin-top: 2rem; /* Adjust as needed */
-  margin-bottom: 5rem; /* Adjust as needed */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  gap: 1rem;
 }
 
 #my-name {
   font-family: 'Signifier', serif;
   color: #fff2e8;
-  font-size: 2.3rem;
+  font-size: 37px;
 }
 
 #my-mail {
   font-family: 'Soehne', sans-serif;
   color: #ffb982;
-  font-size: 1.1rem;
+  font-size: 18px;
 }
 
 .social-links {
   font-family: 'Soehne', sans-serif;
   color: #ffb982;
-  font-size: 1.1rem;
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
-  width: 100%; /* Adjust as needed */
-  margin-top: auto; /* Push social icons to the bottom */
-  position: fixed; /* Position icons fixed at the bottom */
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 2.5rem; /* Padding for the icons bar */
-  border-top: 1px solid #fff2e8; /* Add transparent border */
+  width: 100vw;
+  padding: 30px;
+  border-top: 1px solid #fff2e8;
 }
 
 a {
-  color: #ffb982; /* Use the same color as the surrounding text */
-  text-decoration: none; /* Remove underline */
+  color: #ffb982;
+  text-decoration: none;
 }
 
 .arrow {
   font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 900px) {
+  .social-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .social-links a {
+    display: block;
+  }
 }

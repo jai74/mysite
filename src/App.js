@@ -23,14 +23,10 @@ function App() {
         `}
       </script>
       <body>
-        <header>
+        <div className="content">
           <h1 id="my-name">Jai Bhaarath</h1>
-        </header>
-        <main>
-          <div id="my-mail">
-            <a href="mailto:jb@jaibhaarath.org">jb@jaibhaarath.org</a>
-          </div>
-        </main>
+          <a id="my-mail" href="mailto:jb@jaibhaarath.org">jb@jaibhaarath.org</a>
+        </div>
         <footer>
           <div className="social-links">
             <a href="https://www.linkedin.com/in/jai-bhaarath" target="_blank" rel="noopener noreferrer">LinkedIn <span class="arrow">&#x2197;</span></a>

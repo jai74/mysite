@@ -10,6 +10,7 @@ function App() {
       </div>
       <footer>
         <div className="social-links">
+          <a href="https://www.truevote.in" target="_blank" rel="noopener noreferrer">TrueVote <span class="arrow">&#x2197;</span></a>
           <a href="https://www.linkedin.com/in/jai-bhaarath" target="_blank" rel="noopener noreferrer">LinkedIn <span class="arrow">&#x2197;</span></a>
           <a href="https://www.instagram.com/jaibhaarath" target="_blank" rel="noopener noreferrer">Instagram <span class="arrow">&#x2197;</span></a>
           <a href="https://www.twitter.com/jaibz" target="_blank" rel="noopener noreferrer">Twitter <span class="arrow">&#x2197;</span></a>

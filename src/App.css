@@ -5,13 +5,16 @@
 }
 
 @font-face {
-  font-family: 'Pretendard';
-  src: url('PretendardVariable.woff2') format('woff2-variations');
-  font-weight: 400 600;
+  font-family: 'Sohne Regular';
+  src: url('/Users/jaibhaarath/Downloads/KlimTestFonts/Test web fonts (WOFF2)/Test Söhne Collection/Test Söhne/test-soehne-buch.woff2') format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'Sohne Medium';
+  src: url('/Users/jaibhaarath/Downloads/KlimTestFonts/Test web fonts (WOFF2)/Test Söhne Collection/Test Söhne/test-soehne-halbfett.woff2') format('woff2-variations');
 }
 
 body {
-  font-family: 'Pretendard', sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -19,6 +22,7 @@ body {
   align-items: center;
   background: #030303;
   height: 100vh;
+  font-feature-settings: "ss01" 1, "ss03" 1, "ss04" 1, "ss07" 1, "ss08" 1;
 }
 
 .content {
@@ -31,18 +35,22 @@ body {
 }
 
 #my-name {
+  font-family: 'Sohne Medium', sans-serif;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 31px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 #my-mail {
+  font-family: 'Sohne Medium', sans-serif;
   color: #b4b4b4;
   font-size: 17px;
   font-weight: 600;
 }
 
 .social-links {
+  font-family: 'Sohne Regular', sans-serif;
   color: #ffffff;
   font-size: 17px;
   display: flex;

@@ -5,16 +5,13 @@
 }
 
 @font-face {
-  font-family: 'Sohne Regular';
-  src: url('/Users/jaibhaarath/Downloads/KlimTestFonts/Test web fonts (WOFF2)/Test Söhne Collection/Test Söhne/test-soehne-buch.woff2') format('woff2-variations');
-}
-
-@font-face {
-  font-family: 'Sohne Medium';
-  src: url('/Users/jaibhaarath/Downloads/KlimTestFonts/Test web fonts (WOFF2)/Test Söhne Collection/Test Söhne/test-soehne-buch.woff2') format('woff2-variations');
+  font-family: 'Pretendard';
+  src: url('/Users/jaibhaarath/Downloads/Instrument_Sans/InstrumentSans-VariableFont_wdth,wght.ttf') format('woff2-variations');
+  font-weight: 400 600;
 }
 
 body {
+  font-family: 'Pretendard', sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -35,7 +32,6 @@ body {
 }
 
 #my-name {
-  font-family: 'Sohne Medium', sans-serif;
   color: #ffffff;
   font-size: 31px;
   font-weight: 600;
@@ -43,14 +39,12 @@ body {
 }
 
 #my-mail {
-  font-family: 'Sohne Medium', sans-serif;
   color: #b4b4b4;
   font-size: 17px;
   font-weight: 600;
 }
 
 .social-links {
-  font-family: 'Sohne Regular', sans-serif;
   color: #ffffff;
   font-size: 17px;
   display: flex;

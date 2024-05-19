@@ -7,11 +7,20 @@
 @font-face {
   font-family: 'Inter';
   src: url('InterVariable.woff2') format('woff2-variations');
-  font-weight: 400 700;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Soehne-Kraftig';
+  src: url('soehne-kraftig.woff2') format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'Soehne-Buch';
+  src: url('soehne-buch.woff2') format('woff2-variations');
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -31,19 +40,20 @@ body {
 }
 
 #my-name {
+  font-family: 'Soehne-Kraftig', sans-serif;
   color: #ffffff;
   font-size: 32px;
-  font-weight: 700;
   margin-bottom: 10px;
 }
 
 #my-mail {
+  font-family: 'Soehne-Buch', sans-serif;
   color: #b4b4b4;
   font-size: 17px;
-  font-weight: 400;
 }
 
 .social-links {
+  font-family: 'Soehne-Buch', sans-serif;
   color: #ffffff;
   font-size: 17px;
   display: flex;
@@ -56,6 +66,10 @@ body {
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.arrow {
+  font-family: 'Inter', sans-serif;
 }
 
 @media (max-width: 700px) {
